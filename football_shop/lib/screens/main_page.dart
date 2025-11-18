@@ -25,7 +25,7 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Colors.indigo,
         foregroundColor: Colors.white, 
       ),
-      drawer: const LeftDrawer(),
+      drawer: LeftDrawer(),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(10.0),
